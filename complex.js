@@ -40,11 +40,3 @@ function readFile(filePath) {
     return fs.readFileSync(filePath, "utf8");
 }
 
-module.exports = {
-    calculateSum,
-    reverseString,
-    generateFibonacci,
-    checkPrime,
-    findMaximum,
-    readFile
-};
